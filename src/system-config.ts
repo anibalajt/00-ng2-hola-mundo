@@ -9,6 +9,13 @@ const map: any = {
 const packages: any = {
 };
 
+/** ¿qué hace el system-config?
+ * le indica a SystemJS dónde debe buscar el código
+ * mapeo de nombres cortos, contra rutas
+ * uso de barriles: un híbrido de carpeta/módulo con un indice
+ * */
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
  * Everything underneath this line is managed by the CLI.

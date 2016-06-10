@@ -2,6 +2,7 @@
 
 var Angular2App = require('angular-cli/lib/broccoli/angular2-app');
 
+/** rutas que necesita angular-cli para encontrar las dependencias de terceros */
 module.exports = function(defaults) {
   return new Angular2App(defaults, {
     vendorNpmFiles: [
